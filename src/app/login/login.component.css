@@ -38,9 +38,9 @@ img {
 }
 
 .sigin{
-    background: rgba(182, 230, 207, .3);
     margin-top: 35px;
     border-radius: 15pt;
+    
 }
 
 input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
@@ -53,7 +53,42 @@ input:not([type]):focus, input[type=text]:focus, input[type=password]:focus, inp
 
 
 .img-center {
+    padding-top: 25px;
     display: block;
     margin: 0 auto;
 }
 
+[type="checkbox"]:checked + label:before {
+    top: -4px;
+    left: -5px;
+    width: 10px;
+    height: 18px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid #26a69a;
+    border-bottom: 2px solid #26a69a;
+    -webkit-transform: rotate(40deg);
+    transform: rotate(40deg);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+}
+
+[type="checkbox"] + label:before, [type="checkbox"]:not(.filled-in) + label:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    z-index: 0;
+    border: 2px solid black;
+    border-radius: 1px;
+    margin-top: 2px;
+    transition: .2s;
+}
+
+.waves-light{
+border-radius: 999px;
+}
