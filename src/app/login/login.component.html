@@ -13,45 +13,43 @@
 <div class="container">
    <div class="row">
       <div class="col s10 m5 l6 offset-s1 offset-m1 img-center">
-         <h4 style="text-align: center;">Live with your Family in One Home!</h4>
+         <h4 style="text-align: center; padding-top: 30px;">Live with your Family in One Home!</h4>
          <img class='img-center' src="./src/app/login/assests/familyhome.png" alt='Home Family'>
       </div>
      
-      <div class="col s10 m5 l4 offset-s1 offset-l1 sigin">
-          <div class="row logform" style="padding-top: 25px">
-            <h5>Login to your Family Tree</h5>
+      <div class="col s10 m5 l4 offset-s1 offset-l2 sigin">
+          <div class="row logform" style="padding-top: 40px">
+            <h5>Login to Family Tree</h5>
           </div>
           <div class="row">
       <div class="input-field inline col s10 offset-l1 offset-s1 offset-m1 m10 l10">
-        <i class="material-icons prefix"  style="margin-top: 15px">perm_phone_msg</i>
          <input id="email" type="email" class="validate">
          <label for="email" data-error="Invalid email ID" data-success="" >Email id / Mobile Number</label>
       </div>
 </div>
-<div class="row">
+<div class="row" style="margin-bottom:10px !important;">
         <div class="input-field col s10 offset-l1 offset-s1 offset-m1 m10 l10" >
-          <i class="material-icons prefix"  style="margin-top: 15px">lock_outline</i>
           <input id="password" type="password" class="validate">
           <label for="password" >Password</label>
         </div>
       </div>
-      
-      <div class="row">
+      <div class="row" >
+    <div class="col s6 offset-l1 offset-m3 l6 m6 ">
+      <input type="checkbox" id="test5" checked="checked"/>
+      <label for="test5" style="color:black !important;">Remember me</label>
+    </div>
+      <div class="col s6 m6 offset-m3 l5" >
+            <a href="" class="forget" routerLink="/forgotpassword" >Forgot password?</a>
+            </div>
+    </div>
+      <div class="row" style="margin-bottom:6px !important;">
        
 <button class="btn waves-effect waves-light col s6 offset-l3 offset-s3 offset-m3 l6 m6" type="submit" name="action">Login
 
   </button>
       </div>
- <div class="row">
-    <div class="col s7 offset-l1 offset-s3 offset-m3 m7 l5 ">
-    <p>
-      <input type="checkbox" id="test5" checked="checked" />
-      <label for="test5" style="color:black !important;" >Remember me</label>
-    </p>
-    </div>
-    <div class="col s7 offset-s3 offset-m3 m7 l5" style="padding-top: 15px;">
-            <a href="" routerLink="/forgotpassword" style="color:black !important;">Forgot password?</a>
-            </div>
+ <div class='row'>
+   
 
       </div>
       </div>
