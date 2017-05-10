@@ -30,15 +30,15 @@ nav{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
 }
 img {
-    width: 60%;
+    width: 80%;
     height: auto;
 }
 
 .sigin{
-    margin-top: 35px;
+    margin-top: 5px;
     border-radius: 15pt;
     
 }
@@ -57,7 +57,7 @@ input:not([type]):focus, input[type=text]:focus, input[type=password]:focus, inp
 
 
 .img-center {
-    padding-top: 25px;
+
     display: block;
     margin: 0 auto;
 }

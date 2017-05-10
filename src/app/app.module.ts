@@ -10,13 +10,15 @@ import {MdButtonModule, MdCheckboxModule,MdRadioModule,MdGridListModule,MdInputM
 import { AppComponent } from './app.component';
 import { MytreeComponent } from './mytree/mytree.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MytreeComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
