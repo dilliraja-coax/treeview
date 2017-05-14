@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 import { MytreeComponent } from './mytree/mytree.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { routing } from "app/app.routing";
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { SignupComponent } from './signup/signup.component';
   imports: [
     BrowserModule,
     FormsModule,
+    routing,
     HttpModule,
     BrowserAnimationsModule,
     MdButtonModule, 

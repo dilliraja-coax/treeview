@@ -9,9 +9,6 @@ import {Relative} from './relative'
   styleUrls: ['./mytree.component.css']
 })
 
-
-
- 
 export class MytreeComponent implements OnInit {
 
   constructor() { }
